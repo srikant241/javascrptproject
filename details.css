@@ -1,0 +1,851 @@
+@media(max-width:400px){
+    body{
+        margin: 0;
+    }
+    .top-divider-one{
+        width:24px;
+        height:2px;
+        background-color:#0A1229;
+        margin-right: 12px;
+        margin-right: 12px;
+    }
+    .top-divider-two{
+        width:24px;
+        height:2px;
+        background-color:#0A1229;
+        margin-top:10px;
+        margin-right: 12px;
+        margin-right: 12px;
+    }
+    #cross-sidebar{
+        font-size: 30px;
+        margin-left: 170px;
+        margin-top: 12px;
+    }
+    .sidebar-content{
+        width: 200px;
+        height: 300px;
+        background-color: #D9D5CD;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        transform: translateX(-100%);
+        transition: transform 0.3s;
+    }
+    .sidebar-content h3{
+        margin: 0;
+        margin-top: 24px;
+        margin-left: 12px;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .sidebar-heading-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-right: 60px;
+    }
+    .nav-main-heading{
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        color: black;
+        cursor: pointer;
+    }
+    .nav-main-heading span{
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        color: black;
+        cursor: pointer;
+    }
+    .nav-first-heading{
+        display: none;
+    }
+    .nav-second-heading{
+        display: none;
+    }
+    .search-wrapper{
+        display: none;
+    }
+    .cart-icon{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 900;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .cart-wrapper{
+        display: flex;
+        position: relative;
+        margin-left: 24px;
+    }
+    .cart-count{
+        width: 18px;
+        height: 18px;
+        font-size: 12px;
+        margin: 0;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        background-color: #009688;
+        color: white;
+        border-radius: 50%;
+        position: absolute;
+        top: -12px;
+        right: -12px;
+    }
+    .nav-thumbnail{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 24px;
+    }
+    #nav-bar{
+        width: 400px;
+        box-shadow: 0 2px 5px #ccc;
+        background-color: white;
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 16px 8%;
+    }
+    .search-input{
+        /* width: 100%; */
+        width: 400px;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        background-color: rgb(245, 242, 242);
+        box-sizing: border-box;
+        padding: 10px 24px 8px 48px;
+        color: black;
+        outline: none;
+        margin-right: 12px;
+    }
+    
+    .search-wrapper{
+        position: relative;
+    }
+    #search-icon{
+        position: absolute;
+        color: #999;
+        font-size: 18px;
+        top: 84px;
+        left: 18px;
+    }
+    .mobile-search-wrapper{
+        margin-top: 75px;
+    }
+    .preview-img-wrapper{
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 55px;
+    }
+    .preview-img{
+        width: 100%;
+    }
+    .image-wrapper img{
+        margin-left: 12px;
+        width: 50px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .small-images{
+        margin-left: 12px;
+        width: 50px;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .active-card{
+        border: 2px solid #009688;
+    }
+    .preview-img-details{
+        max-width: 500px;
+        margin-top: 40px;
+        margin-left: 24px;
+    }
+    .preview-img-details h1{
+        font-size: 36px;
+        font-weight: 500;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .product-details-heading{
+        font-size: 48px;
+        font-weight: 500;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .preview-img-details h2{
+        font-size: 24px;
+        font-weight: 600;
+        color: black;
+        opacity: 0.6;
+        margin: 0;
+        margin-top: 8px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .product-details-brand{
+        font-weight: 600;
+        color: black;
+        opacity: 0.6;
+        margin: 0;
+        margin-top: 8px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .preview-img-details h3{
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.8);
+        margin-top: 36px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .product-details-price{
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.8);
+        margin-top: 36px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #price{
+        font-size: 24px;
+        letter-spacing: 1px;
+        line-height: 1.3;
+        font-weight: 600;
+        color: #009688;
+    }
+    .preview-img-details p{
+        max-width: 500px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.3;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.6);
+        font-family: 'Open Sans', sans-serif;
+    }
+    .product-all-details{
+        max-width: 500px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.3;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.6);
+        font-family: 'Open Sans', sans-serif;
+    }
+    .btn-cart{
+        background-color: #009688;
+        font-size: 18px;
+        border: 0;
+        cursor: pointer;
+        outline: none;
+        padding: 10px 20px;
+        border-radius: 6px;
+        margin-top: 36px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: white;
+        transition: transform 200ms;
+    }
+    #total-detail{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .first-footer{
+        margin-left: 24px;
+    }
+    .first-footer h3{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        opacity: 0.9;
+        letter-spacing: 1px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 30px;
+    }
+    .first-footer h2{
+        text-decoration: none;
+        color: white;
+        display: block;
+        margin-top: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 14px;
+        opacity: 0.8;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    .second-footer{
+        margin-left: 20px;
+    }
+    .second-footer h3{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        opacity: 0.9;
+        letter-spacing: 1px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 30px;
+        /* margin-right: 20px; */
+    }
+    .second-footer h2{
+        text-decoration: none;
+        color: white;
+        display: block;
+        margin-top: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 14px;
+        opacity: 0.8;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    /* .third-footer{
+        margin-bottom: 24px;
+    } */
+    .third-footer h3{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        opacity: 0.9;
+        letter-spacing: 1px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 30px;
+    }
+    .third-footer h2{
+        text-decoration: none;
+        color: white;
+        display: block;
+        margin-top: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 14px;
+        opacity: 0.8;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    /* .fourth-footer{
+        margin-right: 180px;
+    } */
+    .fourth-footer h3{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        opacity: 0.9;
+        letter-spacing: 1px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 30px;
+    }
+    .fourth-footer h2{
+        text-decoration: none;
+        color: white;
+        display: block;
+        margin-top: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 14px;
+        opacity: 0.8;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    #footer-section{
+        width: 400px;
+        height: 500px;
+        margin-top: 120px;
+        background-color: #1C1B1E;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .edyoda-logo{
+        width: 128px;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+    }
+
+}
+@media(min-width:991px){
+    body{
+        margin: 0;
+    }
+    #side-bar-icon{
+        display: none;
+    }
+    .sidebar-content{
+        display: none;
+    }
+    .nav-main-heading{
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        color: black;
+        cursor: pointer;
+    }
+    .nav-main-heading span{
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 36px;
+        font-weight: 800;
+        color: black;
+        cursor: pointer;
+    }
+    .nav-first-heading{
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .nav-second-heading{
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+        color: black;
+        /* margin-left: 32px; */
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .search-input{
+        /* width: 100%; */
+        width: 400px;
+        border: 1px solid transparent;
+        background-color: rgb(245, 242, 242);
+        box-sizing: border-box;
+        padding: 10px 24px 8px 48px;
+        color: black;
+        outline: none;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    
+    .search-wrapper{
+        position: relative;
+    }
+    #search-icon{
+        position: absolute;
+        color: #999;
+        font-size: 18px;
+        top: 50%;
+        left: 26px;
+        transform: translateY(-50%);
+    }
+    .cart-icon{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 900;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .cart-wrapper{
+        display: flex;
+        position: relative;
+    }
+    .cart-count{
+        width: 18px;
+        height: 18px;
+        font-size: 12px;
+        margin: 0;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        background-color: #009688;
+        color: white;
+        border-radius: 50%;
+        position: absolute;
+        top: -12px;
+        right: -12px;
+    }
+    .nav-thumbnail{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    #nav-bar{
+        width: 100%;
+        box-shadow: 0 2px 5px #ccc;
+        background-color: white;
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 16px 8%;
+    }
+    .mobile-search-wrapper{
+        display: none;
+    }
+    .slider-div{
+        width: 1100px;
+        margin: 0 auto;
+    }
+    .slider-img:first-child{
+        margin-top: 100px;
+        width: 100%;
+    }
+    .slider-img img{
+        width: 100%;
+    }
+    .slick-dots{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 16px 0;
+        list-style: none;
+        bottom: 40px;
+    }
+    .slick-dots li{
+        margin: 0 0.25rem;
+        background: #fff;
+        border-radius: 50%;
+    }
+    .slick-dots button{
+        display: block;
+        width: 12px;
+        height: 12px;
+        padding: 0;
+        margin-right: 5px;
+        border: none;
+        border-radius: 50%;
+        font-size: 0;
+    }
+    .slick-dots li.slick-active button{
+        background-color: #999;
+    }
+    .first-main-heading{
+        font-size: 28px;
+        font-weight: 600;
+        opacity: 0.8;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 110px;
+        margin-top: 60px;
+    }
+    .clothing-section{
+        display: flex;
+        width: 1150px;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+    .individual-clothing{
+        width: 210px;
+        /* border: 1px solid transparent; */
+        box-shadow: 0 2px 5px #ccc;
+        border-radius: 5px;
+        /* margin-left: 115px; */
+       
+    }
+    .product-pic{
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .link{
+        text-decoration: none;
+        color: black;
+    }
+    .product-title{
+        font-weight: 600;
+        margin: 0;
+        font-size: 16px;
+        margin-left: 12px;
+        margin-top: 20px;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .product-brand{
+        font-weight: 600;
+        opacity: 0.8;
+        margin: 0;
+        margin-top: 12px;
+        margin-left: 12px;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .product-price{
+        margin: 0;
+        margin-top: 12px;
+        font-weight: 600;
+        color: #009688;
+        margin-left: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .second-main-heading{
+        font-size: 28px;
+        font-weight: 600;
+        opacity: 0.8;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 110px;
+        margin-top: 60px;
+    }
+    .Accessories-section{
+        display: flex;
+        width: 1150px;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+    .individual-accessories{
+        width: 210px;
+        /* border: 1px solid transparent; */
+        box-shadow: 0 2px 5px #ccc;
+        border-radius: 5px;
+        /* margin-left: 115px; */
+       
+    }
+    .first-footer{
+        margin-left: 100px;
+    }
+    .first-footer h3{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        opacity: 0.9;
+        letter-spacing: 1px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 70px;
+    }
+    .first-footer h2{
+        text-decoration: none;
+        color: white;
+        display: block;
+        margin-top: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 14px;
+        opacity: 0.8;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    .second-footer{
+        margin-left: 30px;
+    }
+    .second-footer h3{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        opacity: 0.9;
+        letter-spacing: 1px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 70px;
+        /* margin-right: 20px; */
+    }
+    .second-footer h2{
+        text-decoration: none;
+        color: white;
+        display: block;
+        margin-top: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 14px;
+        opacity: 0.8;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    .third-footer{
+        margin-right: 40px;
+    }
+    .third-footer h3{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        opacity: 0.9;
+        letter-spacing: 1px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 70px;
+    }
+    .third-footer h2{
+        text-decoration: none;
+        color: white;
+        display: block;
+        margin-top: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 14px;
+        opacity: 0.8;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    .fourth-footer{
+        margin-right: 180px;
+    }
+    .fourth-footer h3{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        opacity: 0.9;
+        letter-spacing: 1px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 70px;
+    }
+    .fourth-footer h2{
+        text-decoration: none;
+        color: white;
+        display: block;
+        margin-top: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 14px;
+        opacity: 0.8;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    #footer-section{
+        height: 300px;
+        margin-top: 120px;
+        background-color: #1C1B1E;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .edyoda-logo{
+        width: 128px;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+    }
+    .preview-img-wrapper{
+        width: 350px;
+        margin-top: 130px;
+        margin-left: 100px;
+    }
+    .preview-img{
+        width: 100%;
+    }
+    .image-wrapper img{
+        margin-left: 12px;
+        width: 50px;
+        /* box-sizing: border-box; */
+        /* border: 2px solid transparent; */
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .small-images{
+        margin-left: 12px;
+        width: 50px;
+        /* box-sizing: border-box; */
+        border: 2px solid transparent;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .active-card{
+        border: 2px solid #009688;
+    }
+    .preview-img-details{
+        max-width: 500px;
+        margin-top: 130px;
+        margin-left: 100px;
+    }
+    .preview-img-details h1{
+        font-size: 48px;
+        font-weight: 500;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .product-details-heading{
+        font-size: 48px;
+        font-weight: 500;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .preview-img-details h2{
+        font-weight: 600;
+        color: black;
+        opacity: 0.6;
+        margin: 0;
+        margin-top: 8px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .product-details-brand{
+        font-weight: 600;
+        color: black;
+        opacity: 0.6;
+        margin: 0;
+        margin-top: 8px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .preview-img-details h3{
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.8);
+        margin-top: 36px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .product-details-price{
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.8);
+        margin-top: 36px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #price{
+        font-size: 24px;
+        letter-spacing: 1px;
+        line-height: 1.3;
+        font-weight: 600;
+        color: #009688;
+    }
+    .preview-img-details p{
+        max-width: 500px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.3;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.6);
+        font-family: 'Open Sans', sans-serif;
+    }
+    .product-all-details{
+        max-width: 500px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.3;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.6);
+        font-family: 'Open Sans', sans-serif;
+    }
+    .btn-cart{
+        background-color: #009688;
+        font-size: 18px;
+        border: 0;
+        cursor: pointer;
+        outline: none;
+        padding: 18px 36px;
+        border-radius: 6px;
+        margin-top: 36px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: white;
+        transition: transform 200ms;
+    }
+    #total-detail{
+        display: flex;
+    }
+}
